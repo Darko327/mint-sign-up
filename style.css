@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #eceef1;
+    color: #505050;
+    font-family: 'Open Sans', sans-serif;
+}
+.cleaner {
+    clear: both;
+}
+p {
+    font-size: 12px;
+}
+a {
+    text-decoration: none;
+    color: #505050;
+}
+.btn {
+    color: white;
+    background-color: #0077c5;
+    border: none;
+    border-radius: 5px;
+}
+.colored-link {
+    color: #0077c5;
+}
+ul li {
+    display: inline-block;
+}
+.icon-with-text {
+    margin-right: 8px;
+}
+/* Header */
+header {
+    padding: 15px 40px;
+}
+header > ul{
+    float: right;
+}
+header ul li {
+    vertical-align: middle;
+}
+#sign-in {
+    margin-left: 10px;
+    padding: 12px 10px;
+}
+/* Main */
+main {
+    padding: 20px 0;
+}
+main section {
+    width: 24%;
+    margin: 0 auto;
+    text-align: center;
+}
+/* Content above form */
+#logo {
+    width: 140px;
+    height: 40px;
+}
+#account-for-sites {
+    padding: 18px 0;
+    line-height: 35px;
+}
+#account-for-sites ul li{
+    margin: 0 8px;
+    vertical-align: middle;
+    color: #757575;
+}
+.sites-icon {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+/* Form */
+#form-wrapper {
+    background-color: white;
+    border: 1px solid #c7c7c7;
+    border-radius: 1%;
+}
+#form-header {
+    padding: 20px 0;
+}
+#form-header #form-title {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+form {
+    padding: 0 10%;
+}
+.data-input-field {
+    margin-bottom: 35px;
+}
+.data-input-field input{
+    width: 100%;
+    margin: 8px 0 5px 0;
+    padding: 10px;
+    border: 1px solid #c1c5c8;
+    border-radius: 3px;
+}
+input, label {
+    display: block;
+}
+label {
+    text-align: left;
+    font-size: 0.9em;
+}
+#privacy-terms {
+    padding: 40px 0;
+    font-size: 0.7em;
+    color: #757575;
+}
+/* Form submit button */
+#submit-form {
+    padding: 15px 0;
+    width: 100%;
+}
+/* Form footer */
+#form-footer {
+    padding: 12px 5px;
+    background-color: #eceef1;
+}
+/* Page footer */
+footer {
+    text-align: center;
+    padding-bottom: 20px;
+}
+footer ul li, footer p {
+    font-size: 0.6em;
+}
+footer ul li{
+    margin: 0 5px 8px 5px;   
+}
+footer ul li:hover {
+    text-decoration: underline;
+}
+/* Widget */
+#widget {
+    position: fixed;
+    right: 50px;
+    bottom: 0px;
+    padding: 15px 12px;
+    font-size: 0.8em;
+    background-color: #6e6e73;
+    border-radius: 5%;
+    color: white;
+}
